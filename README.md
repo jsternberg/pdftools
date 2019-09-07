@@ -13,3 +13,7 @@ These are a few simple command line tools for manipulating pdf documents.
     1 -> 3 ---|
               |----> 1 -> 2 -> 3 -> 4
     4 -> 2 ---|
+
+## pdfcut
+
+`pdfcut` takes a single pdf document and cuts it by the page number. A page number or a page range must be specified. A page range can be specified by giving the start page and end page separate by a colon.
